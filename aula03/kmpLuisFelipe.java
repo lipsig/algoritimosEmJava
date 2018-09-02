@@ -32,13 +32,11 @@ public class kmpFelipe {
 	            	 indiceSubstring = arraycomputaSubstring[ indiceSubstring - 1];
 	             else
 	            	 indicetexto = indicetexto + 1;
-	         }
+	         }     
+		     
 	     }
-	 }
+      }
 		
-		
-	
-	
 	private	void processaSubstring(String substring, int tamanhosubstring, int[] arraycomputaSubstring) {
 		int g = 0 ;
 		int i = 1;
