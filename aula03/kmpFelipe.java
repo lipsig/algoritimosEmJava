@@ -20,7 +20,7 @@ public class kmpFelipe {
 	        	 indicetexto++;
 	         }
 	         if (indiceSubstring == tamanhosubstring) {
-	             System.out.println("Achou o padrão "
+	             System.out.println("Achou o padrão de Substring "
 	                                + "no índice: " + (indicetexto - indiceSubstring));
 	             indiceSubstring = arraycomputaSubstring[indiceSubstring - 1];
 	         }
