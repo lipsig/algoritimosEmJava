@@ -56,11 +56,10 @@ public class kmpFelipe {
 	                 arraycomputaSubstring[i] = g;
 	                 i++;
 	             }
-	         }
-		}
-	         
-		
-	}
+	        }	
+	  }
+	     
+     }
 
 
 	public static void main(String[] args) {
