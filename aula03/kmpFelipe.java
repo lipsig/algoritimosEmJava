@@ -20,7 +20,7 @@ public class kmpFelipe {
 	        	 indicetexto++;
 	         }
 	         if (indiceSubstring == tamanhosubstring) {
-	             System.out.println("Achou o padrão "
+	             System.out.println("Achou o padrão de Substring "
 	                                + "no índice: " + (indicetexto - indiceSubstring));
 	             indiceSubstring = arraycomputaSubstring[indiceSubstring - 1];
 	         }
@@ -32,13 +32,11 @@ public class kmpFelipe {
 	            	 indiceSubstring = arraycomputaSubstring[ indiceSubstring - 1];
 	             else
 	            	 indicetexto = indicetexto + 1;
-	         }
+	         }     
+		     
 	     }
-	 }
+      }
 		
-		
-	
-	
 	private	void processaSubstring(String substring, int tamanhosubstring, int[] arraycomputaSubstring) {
 		int g = 0 ;
 		int i = 1;
@@ -58,11 +56,10 @@ public class kmpFelipe {
 	                 arraycomputaSubstring[i] = g;
 	                 i++;
 	             }
-	         }
-		}
-	         
-		
-	}
+	        }	
+	  }
+	     
+     }
 
 
 	public static void main(String[] args) {
